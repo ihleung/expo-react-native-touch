@@ -13,4 +13,3 @@ npx create-expo-app -e with-router
 -react-native
 
 -using ios simulator and web browser
-# expo-react-native-touch
