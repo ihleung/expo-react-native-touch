@@ -110,6 +110,7 @@ export default function App() {
   const onLongPressButton = function () {
     alert("You long-pressed the button!");
   };
+
   //Swipeable and Cancellable
   // Create a state variable containing an array of objects.
   // These items will be used to render a bunch of swipeable
@@ -120,7 +121,7 @@ export default function App() {
       name: `Swipe Me (${id})`,
     }))
   );
-
+  //Swipeable and Cancellable
   // When a swipeable button is swiped, this event handler will
   // remove it from the items state variable.
   function onSwipe(id) {
